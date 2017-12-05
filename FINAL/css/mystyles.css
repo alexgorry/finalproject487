@@ -1,0 +1,52 @@
+body {
+    background: url(https://static1.squarespace.com/static/57e4512e8419c29418b51c9c/t/57f820a7f5e231f7e7a4cc7a/1475879084661/bear9.jpg?format=1500w);
+    background-repeat: no-repeat;
+}
+h1 {
+font-family: 'Economica', sans-serif;
+font-size: 220px;
+text-align: center;
+}
+h2 {
+    font-family: 'Economica', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    font-family: times;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#header {
+    color: red;
+}
+.twitter-timeline {
+ float: right;
+}
+#awardstxt {
+margin: 2px;
+float:left;
+
+}
+#social {
+    float: left;
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>487 Final Project: Alex Gorry</title>
+  <meta name="project" content="finalproject">
+
+
+  <!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- End SlidesJS Required -->
+
+  <!-- CSS for slidesjs.com example -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/example.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/mystyles.css">
+  <!-- End CSS for slidesjs.com example -->
+
+<!--GOOGLE FONTS-->
+<link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+
+ <style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+
+  <!-- SlidesJS Optional: If you'd like to use this design -->
+  <style>
+    body {
+      -webkit-font-smoothing: antialiased;
+      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #232525;
+      padding-top:70px;
+    }
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  </style>
+  <!-- End SlidesJS Optional-->
+
+  <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+  <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+  </style>
+  <!-- SlidesJS Required: -->
+</head>
+
+<body>
+  <div id="header">
+  <h1>THE HUNT</h1></div>
+  <h2>The Sad Truth</h2>
+  <p>Trophy hunting, by definition, is the hunting of animals for sport. Killing an animal "for fun." Killing an animal for no reason.
+  The truth is that this pastime is costing so many of the earth's creatures their lives. The impact trophy hunting has on many creatures is severe
+  but for one animal in particular- time is running out.</p>
+  <!-- SlidesJS Required: Start Slides -->
+  <!-- The container is used to define the width of the slideshow -->
+  <div class="container">
+    <div id="slides">
+      <img src="img/bear1.jpg" alt="bear1">
+      <img src="img/bear2.jpg" alt="bear2">
+      <img src="img/bear3.jpg" alt="bear3">
+      <img src="img/bear4.jpg" alt="bear4">
+      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+    </div>
+  </div>
+  <!-- End SlidesJS Required: Start Slides -->
+
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: false
+      });
+    });
+  </script>
+ <h2>
+  Watch the Documentary
+ </h2>
+ <p>LUSH COSMETICS North America has presented us with an important film- one that showcases the dangers grizzlies face as trophy hunting
+ remains legal in many parts of North America. The film touches on important topics such as why not being on the Endangered Species List
+ may not really be a good thing...</p>
+ <iframe src="https://player.vimeo.com/video/189703709" width="100%" height="600px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<h2>The Effects</h2>
+<p>Grizzly bears used to roam happily all throughout North America. Their presence was know all the way from Northern Canada to New Mexico. Thanks
+to outdated pastimes, like trophy hunting, their presence is scarce. Many poeple in these areas don't even know that grizzlies
+used to be locals. Grizzly bears have been slowly pushed out of their natural habitats, now only living in areas where there is little
+human population such as Alaska, British Columbia and Montana. Keeping in mind that these animals used to be all the way in New Mexico,
+look at the map below to see the only places grizzlies are reguarly spotted thanks to a dwindle in their population due to trophy hunting.</p>
+<!-- GOOGLE MAP-->
+  <div id="map"></div>
+
+	<script src="js/scripts.js"></script>
+	<script async defer 
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA743d6sstHw-z22lzS3Q7Wn5_tIi2VngU&callback=initMap"></script>
+
+  <img src="img/awards.png" alt="awardspic">
+<!--TWITTER TIMELINE-->  
+<a class="twitter-timeline" width="auto" height="600" text-align:="center" href="https://twitter.com/World_Wildlife?ref_src=twsrc%5Etfw">Tweets by World_Wildlife</a>
+<p id="social">Follow Trophy Film on Social Media</p>
+<a href="https://www.facebook.com/trophythefilm/" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/trophyfilm/?hl=en" class="fa fa-instagram"></a>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+
+<script>window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <!-- End SlidesJS Required -->
+</body>
+</html>
